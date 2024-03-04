@@ -28,8 +28,8 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
+    transform: translate(-50%, -50%);
 
 
     background-color: white;
@@ -90,9 +90,9 @@ div.campo >input{
     border: 0px;
     height:100%;
     width:calc(100% - 45px);
-    transform: translateY(-12px);
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-12px);
 }
 div.campo > input:focus-within{
     background-color: white;
